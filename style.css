@@ -1,0 +1,165 @@
+
+#nav-bar {
+  position: fixed;
+  background: grey;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 5px 5px grey;
+  border-radius: 5px;
+  margin: -10px;
+}
+
+#header-img{
+ display: block;
+ width: 200px;
+ margin-right:auto;
+ padding-left: 25px;
+}
+
+.nav-link{
+  display: flex;
+  justify-content: space-around;
+  color:black;
+  text-decoration: none;
+  width: 250px;
+  font-size:200%;
+}
+
+#form{
+  padding: 130px 10px 5px 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#email{
+  font-size: 25px;
+}
+
+#submit{
+  background-color:yellow;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  height: 40px;
+  width: 130px;
+}
+
+#submit:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: orange;
+  }
+}
+
+
+#features{
+  display: flex;
+  width:45%;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#detail-box{
+  display: flex;
+  height: 200px;  
+  align-items: center;
+  
+}
+
+#detail-a-img{
+ max-height:100%; 
+ max-width:100%;
+}
+
+#materials-text{
+  font-size: 25px;
+  margin-left: 2%;
+}
+
+@media (max-width: 1000px){
+  #detail-a-img{
+    display: none;
+  }
+}
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#box-container{
+  width:100%;
+  background: linear-gradient(to right, white , #d6e5ff);
+  padding: 15px 15px;
+}
+
+#boxes-row{
+display: flex;
+  width:40%;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#boxes{
+  background-color:white;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  width:30%;
+  height: 300px;  
+}
+
+#box-title{
+  background-color:grey;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#price{
+  font-size:26px;
+  font-weight: bold;
+}
+
+#box-info{
+  background-color:white;
+  padding: 10px 5px 10px 5px;
+  font-size: 18px;
+  
+}
+
+footer{
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 70px;
+  justify-content:center;
+  width:45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  }
+
+.foot-link{
+  color:black;
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+#copyright{
+  padding-right: 18px;
+}
